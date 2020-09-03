@@ -1,6 +1,6 @@
 # ESEM2020_ReplicationPackage
 
-This replication package contains
+The replication package for the paper "Profiling Developers Through the Lens of Technical Debt" (ESEM '20) contains
 
 (i) The updated Technical Debt Dataset with executable views for all tables (in the .db format)
 We construct views of each major table (GIT_COMMITS,REFACTORING_MINER,SONAR_ISSUES, andSONAR_MEASURES) in the Technical Debt dataset by restricting theprojectID to ‘beam’, and label them with a_BEAM prefix (e.g._BEAM_GIT_COMMITS). To extract data for different projects, the "projectID" part of the query needs to be updated to reflect the name of the project under study.
