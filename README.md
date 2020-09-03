@@ -7,18 +7,14 @@ The replication package for the paper "Profiling Developers Through the Lens of 
 We construct views of each major table (GIT_COMMITS, REFACTORING_MINER, SONAR_ISSUES, and SONAR_MEASURES) in the Technical Debt dataset by restricting the projectID = ‘beam’, and label them with a_BEAM prefix:
 
 
-TABLE                       VIEW
+|       TABLE       |           VIEW          |
+|:-----------------:|:-----------------------:|
+|    GIT_COMMITS    |    _BEAM_GIT_COMMITS    |
+|    JIRA_ISSUES    |    _BEAM_JIRA_ISSUES    |
+| REFACTORING_MINER | _BEAM_REFACTORING_MINER |
+|    SONAR_ISSUES   |    _BEAM_SONAR_ISSUES   |
+|   SONAR_MEASURES  |   _BEAM_SONAR_MEASURES  |
 
-----------------------------------------------
-GIT_COMMITS        -->      _BEAM_GIT_COMMITS
-
-JIRA_ISSUES        -->      _BEAM_JIRA_ISSUES
-
-REFACTORING_MINER  -->      _BEAM_REFACTORING_MINER
-
-SONAR_ISSUES       -->      _BEAM_SONAR_ISSUES
-
-SONAR_MEASURES     -->      _BEAM_SONAR_MEASURES
 
 To extract data for different projects, the "projectID" part of the query needs to be updated to reflect the name of the project under study.
 
