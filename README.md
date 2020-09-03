@@ -16,4 +16,5 @@ Artifacts:
 
 
 References:
+
 [1] Martin Fowler. 2018.Refactoring: improving the design of existing code. Addison-Wesley Professional.
