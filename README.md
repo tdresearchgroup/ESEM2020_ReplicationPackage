@@ -38,7 +38,7 @@ To extract data for different projects, the "projectID" part of the query needs 
 
 Artifacts:
 1. [Technical Debt Dataset](https://github.com/tdresearchgroup/ESEM2020_ReplicationPackage/releases/tag/1.0)
-2. Graphs
+2. [Graphs](https://github.com/tdresearchgroup/ESEM2020_ReplicationPackage/blob/master/Graphs.rar)
 3. [codified.csv](https://github.com/tdresearchgroup/ESEM2020_ReplicationPackage/blob/master/codified.csv)
 
 
